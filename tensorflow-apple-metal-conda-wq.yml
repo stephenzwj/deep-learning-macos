@@ -1,0 +1,32 @@
+name: wq
+channels:
+  - apple
+  - conda-forge
+  - huggingface
+dependencies:
+    - python=3.8
+    - pip>=19.0
+    - jupyter
+    - tensorflow-deps
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - pyspark
+    - pip:
+        - tensorflow-macos==2.9.0
+        - tensorflow-metal==0.5.0
+        - bayesian-optimization
+        - gym
+        - kaggle
+    - transformers==4.24.0
+        
